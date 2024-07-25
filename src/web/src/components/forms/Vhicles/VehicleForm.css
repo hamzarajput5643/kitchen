@@ -1,0 +1,12 @@
+select,
+input {
+    height: 36px !important;
+    border-radius: 0px !important;
+}
+
+#PrimaryVehicleFlag {
+    height: 23px !important;
+    width: 22px;
+    margin-left: 0 !important;
+    margin-top: 11px
+}

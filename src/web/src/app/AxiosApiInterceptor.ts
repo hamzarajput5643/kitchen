@@ -1,12 +1,8 @@
 import { useEffect } from "react";
 import axios from "axios";
-import {
-  resetToken,
-  selectAuth,
-  updateToken,
-} from "../features/user/authSlice";
-import { useAppDispatch, useAppSelector } from "./hooks";
-import { refreshToken } from "../features/user/authAPI";
+import { useAppDispatch, useAppSelector } from "@app/store/store";
+import { resetToken, selectAuth, updateToken } from "@app/store/reducers/auth";
+import { refreshToken } from "@app/services/auth";
 
 export const AxiosApiInterceptor = () => {
   const authData = useAppSelector(selectAuth);

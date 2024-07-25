@@ -1,0 +1,170 @@
+.alice-carousel {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  direction: ltr;
+  top: -92px;
+}
+
+.slider-item {
+  position: relative;
+  text-align: center;
+}
+
+.slide-bg {
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  text-align: center;
+}
+
+.caption-1 {
+  background: linear-gradient(#ffa632, #a75142);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Raleway-Bold";
+  font-size: 67px;
+  text-transform: uppercase;
+  top: 37%;
+}
+
+.caption-2 {
+  top: 50%;
+  font-family: "Raleway-SemiBold";
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.caption-btn {
+  position: absolute;
+  left: 50%;
+  bottom: 20%;
+  transform: translateX(-50%);
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caption-btn.bd-fff {
+  border-color: rgba(255, 255, 255, 1);
+}
+
+.caption-btn:hover {
+  color: #fff;
+  background: linear-gradient(#ffa632, #a75142);
+  border-color: transparent;
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-background iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.alice-carousel__wrapper {
+  height: 600px !important;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1200px) {
+  .caption-1 {
+    font-size: 50px;
+  }
+
+  .caption-2 {
+    font-size: 20px;
+  }
+
+  .caption-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .caption-1 {
+    font-size: 40px;
+  }
+
+  .caption-2 {
+    font-size: 18px;
+  }
+
+  .caption-btn {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .alice-carousel {
+    top: 0 !important;
+  }
+
+  .caption-1 {
+    font-size: 30px;
+    top: 30%;
+  }
+
+  .caption-2 {
+    font-size: 16px;
+    top: 45%;
+  }
+
+  .caption-btn {
+    font-size: 14px;
+    padding: 6px 12px;
+    bottom: 15%;
+  }
+}
+
+@media (max-width: 576px) {
+  .alice-carousel {
+    top: 0 !important;
+  }
+
+  .caption-1 {
+    font-size: 22px;
+    top: 25%;
+  }
+
+  .caption-2 {
+    font-size: 14px;
+    top: 40%;
+  }
+
+  .caption-btn {
+    font-size: 12px;
+    padding: 5px 10px;
+    bottom: 10%;
+  }
+}

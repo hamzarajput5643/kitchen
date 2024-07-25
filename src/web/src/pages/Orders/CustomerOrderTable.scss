@@ -1,0 +1,50 @@
+.CustomerOrderTable-box {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.CustomerOrderTable-header {
+  padding: 10px 20px;
+  border-bottom: 1px solid #f4f4f4;
+}
+.CustomerOrderTable-body {
+  padding: 10px 20px;
+  overflow: auto;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+.styled-table thead tr {
+  background-color: #007bff;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #6c757d;
+}
+
+.styled-table tbody tr:hover {
+  background-color: #f1f1f1;
+}

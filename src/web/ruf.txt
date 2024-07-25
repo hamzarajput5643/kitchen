@@ -1,0 +1,26 @@
+
+            {/* <div className="row mt-3">
+                <div className="col-12">
+                    <label className="label-font">Additional Ingredient</label>
+                    {Array.from({ length: 5 }).map((_, rowIndex) => (
+                        <div className="row my-3 checkboxes" key={rowIndex}>
+                            {Array.from({ length: 3 }).map((_, colIndex) => (
+                                <div className="col-3" key={colIndex}>
+                                    <GenericDropdown
+                                        name={`ingredient[${rowIndex * 3 + colIndex}]`}
+                                        control={control}
+                                        options={ingredients}
+                                        label=""
+                                    />
+                                </div>
+                            ))}
+                            <div className="col-3">
+                                <div className="text-center">
+                                    <FaPlus className="me-2 mb-1" style={{ color: "green" }} />
+                                    Add Ingredient
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div> */}

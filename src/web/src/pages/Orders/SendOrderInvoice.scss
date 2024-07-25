@@ -1,0 +1,71 @@
+.SendOrderInvoice-box {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.SendOrderInvoice-header {
+  padding: 10px 20px;
+  border-bottom: 1px solid #f4f4f4;
+}
+.SendOrderInvoice-body {
+  padding: 10px 20px;
+}
+
+.SendOrderInvoice-lable {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 14px 0px 0px 0px;
+}
+.SendOrderInvoice-input {
+  display: block;
+  width: 100%;
+  height: 39px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.SendOrderInvoice-btn {
+  display: block;
+  height: 39px;
+  padding: 6px 15px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: lightgray;
+  background-image: none;
+  border: 1px solid #ccc;
+}
+
+.btn-Send {
+  background: #de9941;
+  color: #fff;
+  border: 1px solid #de9941;
+  border-radius: 5px;
+  padding: 7px 30px;
+  margin-bottom: 40px;
+}
+.btn-Send:hover {
+  opacity: 0.7;
+}
+
+.btn-cncl {
+  background: #cc4c3c;
+  color: #fff;
+  border: 1px solid #cc4c3c;
+  border-radius: 5px;
+  padding: 7px 30px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+}
+.btn-cncl:hover {
+  opacity: 0.7;
+}

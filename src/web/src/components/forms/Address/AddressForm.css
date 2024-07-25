@@ -1,0 +1,37 @@
+ul.list-inline {
+    display: flex;
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    list-style: none; /* Remove default list styling */
+}
+
+li.list-inline-item {
+    margin-right: 15px; /* Space between list items */
+}
+
+.hidden {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.icons {
+    font-size: 18px; /* Adjust size as needed */
+    transition: color 0.3s ease; /* Smooth color transition */
+    margin-left: 0 !important;
+    border-radius: 0 !important;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0.5rem !important;
+}
+
+label {
+    margin-bottom: 0 !important;
+    border-radius: 0 !important;
+}
+
+/*input[type="text"] {
+    height: 38px !important;
+}*/

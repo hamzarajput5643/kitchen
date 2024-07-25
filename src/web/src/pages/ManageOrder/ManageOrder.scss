@@ -1,0 +1,44 @@
+.ManageOrder-box {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.ManageOrder-header {
+  padding: 10px 20px;
+  border-bottom: 1px solid #f4f4f4;
+}
+.ManageOrder-body {
+  padding: 20px 20px;
+}
+
+.btn-CutomBuy {
+  background: #de9941;
+  color: #fff;
+  border: 1px solid #de9941;
+  border-radius: 5px;
+  padding: 5px 30px;
+}
+.btn-CutomBuy:hover {
+  opacity: 0.7;
+}
+
+.btn-snd-order {
+  background: #de9941;
+  color: #fff;
+  border: 1px solid #de9941;
+  border-radius: 5px;
+  padding: 5px 30px;
+}
+.btn-snd-order:hover{
+    opacity: 0.7;
+}
+.btn-cncl-order {
+  background: #cc4c3c;
+  color: #fff;
+  border: 1px solid #cc4c3c;
+  border-radius: 5px;
+  padding: 7px 30px;
+}
+.btn-cncl-order:hover{
+    opacity: 0.7;
+}
